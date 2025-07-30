@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 14:31:15 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 14:47:49 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:17:27 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,22 +50,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	result[i] = '\0';
 	return (result);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	*str1 = "    Hello World!H  ";
-	char	*set = "H ";
-	char	*trimmed = ft_strtrim(str1, set);
-
-	if (trimmed)
-	{
-		printf("Original: '%s'.\n", str1);
-		printf("Trimmed: '%s'.\n", trimmed);
-		free(trimmed);
-	}
-	else
-		printf("Error on memory.\n");
-	return (0);
-}*/

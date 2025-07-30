@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 12:31:01 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 12:46:33 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:16:38 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,21 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-/*void	ft_even_to_upper_test(unsigned int i, char *c)
-{
-	if (i % 2 == 0 && *c >= 'a' && *c <= 'z')
-		*c = *c - 32;
-}
-
-#include <stdio.h>
-
-int	main(void)
-{
-	char	str[] = "hello world";
-
-	printf("Before: '%s'.\n", str);
-	ft_striteri(str, ft_even_to_upper_test);
-	printf("After apllying function: '%s'.\n", str);
-	return (0);
-}*/

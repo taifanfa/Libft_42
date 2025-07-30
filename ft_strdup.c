@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/19 16:46:34 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 12:16:00 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:16:32 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,25 +31,3 @@ char	*ft_strdup(const char *s)
 	copy[i] = '\0';
 	return (copy);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	const char	*s;
-	char		*copy;
-	int			len;
-
-	s = "Hello World!";
-	copy = ft_strdup(s);
-	if (copy)
-	{
-		printf("S: %s\n", s);
-		printf("Copy: %s\n", copy);
-		free(copy);
-	}
-	else
-		printf("Error on Memory");
-	return (0);
-}
-*/

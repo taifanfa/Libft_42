@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 15:51:18 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 15:02:27 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:07:45 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,28 +36,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (num * sign);
 }
-
-/*#include <stdio.h>
-
-int	main(int argc, char **argv)
-{
-	int	i;
-	int	result;
-	int result2;
-
-	if (argc == 1)
-	{
-		printf("Use numbers as strings\n");
-		return (0);
-	}
-	i = 1;
-	if (i < argc)
-	{
-		result = ft_atoi(argv[i]);
-		result2 = atoi(argv[i]);
-		printf("input: '%s' -> ft_atoi: '%d'\n", argv[i], result);
-		printf("input: '%s' -> atoi: '%d'\n", argv[i], result2);
-		i++;
-	}
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 12:12:28 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 12:15:46 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:16:59 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,15 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-
-/*#include <stdio.h>
-
-int main(void)
-{
-	char	*s;
-
-	s = "Hello";
-	printf("%s has %zu lenght.\n", s, ft_strlen(s));
-	return (0);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 14:08:35 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 14:23:42 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:17:35 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,24 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	array[i] = '\0';
 	return (array);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	*s = "42 School is cool!";
-	char	*sub1 = ft_substr(s, 3, 6);
-	char	*sub2 = ft_substr(s, 0, 2);
-	char	*sub3 = ft_substr(s, 50, 5);
-	char	*sub4 = ft_substr(s, 5, 100);
-
-	printf("sub1: '%s'\n", sub1);
-	printf("sub2: '%s'\n", sub2);
-	printf("sub3: '%s'\n", sub3);
-	printf("sub4: '%s'\n", sub4);
-	free(sub1);
-	free(sub2);
-	free(sub3);
-	free(sub4);
-	return (0);
-}*/

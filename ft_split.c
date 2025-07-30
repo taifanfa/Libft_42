@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/24 11:39:30 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/24 12:02:07 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:16:19 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,21 +95,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (ft_split_words(result, s, c));
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	**res = ft_split("separate words and turn into array", ' ');
-	int		i;
-
-	i = 0;
-	while (res && res[i])
-	{
-		printf("Word %d: %s\n", i, res[i]);
-		free(res[i]);
-		i++;
-	}
-	free(res);
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 16:44:41 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 12:15:50 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:16:51 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,18 +31,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (src_len);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	const char	*src;
-	char		dest[5];
-	size_t		copied;
-
-	src = "Hello, world!";
-	copied = ft_strlcpy(dest, src, sizeof(dest));
-	printf("dest: '%s'\n", dest);
-	printf("copied: %zu\n", copied);
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/24 11:16:01 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/24 11:29:35 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:08:52 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,27 +54,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	int		test[] = {0, -42, 123456789, -123456789, -2147483648, 2147483647};
-	char	*str;
-	int		i;
-
-	i = 0;
-	while (i < 7)
-	{
-		str = ft_itoa(test[i]);
-		if (str)
-		{
-			printf("ft_itoa(%d) = '%s'.\n", test[i], str);
-			free(str);
-		}
-		else
-			printf("Error on memory (ft_itoa(%d)).\n", test[i]);
-		i++;
-	}
-	return (0);
-}*/

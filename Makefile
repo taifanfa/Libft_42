@@ -6,7 +6,7 @@
 #    By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/18 11:10:12 by tmorais-          #+#    #+#              #
-#    Updated: 2025/07/24 14:27:36 by tmorais-         ###   ########.fr        #
+#    Updated: 2025/07/26 14:45:55 by tmorais-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,6 +56,10 @@ BONUS = ft_lstnew.c \
 		ft_lstsize.c \
 		ft_lstlast.c \
 		ft_lstdelone.c \
+		ft_lstclear.c \
+		ft_lstiter.c \
+		ft_lstmap.c \
+
 
 OBJS = $(SRCS:.c=.o)
 BONUS_OBJ = $(BONUS:.c=.o)

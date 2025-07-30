@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 17:11:43 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 12:15:55 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 11:50:51 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,22 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		dst[dst_len + i] = '\0';
 	return (dst_len + src_len);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	char	buffer[20];
-// 	size_t	ret;
-
-// 	strcpy(buffer, "Hello");
-//     ret = ft_strlcat(buffer, " World!", sizeof(buffer));
-// 	printf("ft_strlcat: result='%s', return=%zu\n", buffer, ret);
-
-// 	strcpy(buffer, "Hello");
-//     ret = ft_strlcat(buffer, " World!", 8);
-// 	printf("ft_strlcat (size=8): result='%s', return=%zu\n", buffer, ret);
-
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/24 14:25:31 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/24 14:47:41 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:13:02 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,24 +19,3 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*))
 	del(lst->content);
 	free(lst);
 }
-
-/*#include <stdio.h>
-
-void	del(void *content)
-{
-	printf("Freed content: %s\n", (char *)content);
-	free(content);
-}
-
-int	main(void)
-{
-	char	*str = malloc(20);
-	t_list	*node;
-
-	if (!str)
-		return (1);
-	sprintf(str, "Test");
-	node = ft_lstnew(str);
-	ft_lstdelone(node, del);
-	return (0);
-}*/

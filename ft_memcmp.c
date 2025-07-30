@@ -6,7 +6,7 @@
 /*   By: tmorais- <tmorais-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 15:22:33 by tmorais-          #+#    #+#             */
-/*   Updated: 2025/07/23 12:17:02 by tmorais-         ###   ########.fr       */
+/*   Updated: 2025/07/29 12:15:33 by tmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,16 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	const char	*a = "Hello";
-	const char	*b = "Hello";
-	const char	*c = "Helxo";
-
-	printf("Test 1: %d\n", ft_memcmp(a, b, 5));
-	printf("Test 2: %d\n", ft_memcmp(a, c, 5));
-	return (0);
-}*/
